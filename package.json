@@ -1,0 +1,25 @@
+{
+  "name": "descend",
+  "version": "1.0.0",
+  "description": "provide limited optional chaining: decend(foo,\"bar.baz.qux\") => foo.bar?.baz?.qux",
+  "main": "index.js",
+  "scripts": {
+    "test": "node driver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agokhale/descend.git"
+  },
+  "keywords": [
+    "optionalchaining"
+  ],
+  "author": "ash",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/agokhale/descend/issues"
+  },
+  "homepage": "https://github.com/agokhale/descend#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
